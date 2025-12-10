@@ -24,8 +24,17 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message: message });
 });
 
-sequelize.authenticate().then(() => console.log("DB Connected"));
+async function connectDB() {
+  try {
+    await sequelize.authenticate()
+    console.log("MySQL Connected");
+  }catch(err){
+    console.error("DB Connection Error:", err);
+  }
+}
+connectDB();
 
-app.listen(process.env.PORT, () =>
+app.listen(process.env.PORT, async () =>{
   console.log(`Server running on port ${process.env.PORT}`)
+}
 );

@@ -19,3 +19,5 @@ async function seed() {
     console.log("Seeded Successfully");
     process.exit();
 }
+
+module.exports={ seed };
