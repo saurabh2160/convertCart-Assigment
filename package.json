@@ -1,0 +1,26 @@
+{
+  "name": "convertcart",
+  "version": "1.0.0",
+  "description": "Simple backend service that allows users to search for restaurants based on a dish name.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh2160/convertCart-Assigment.git"
+  },
+  "author": "Saurabh Manoahar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabh2160/convertCart-Assigment/issues"
+  },
+  "homepage": "https://github.com/saurabh2160/convertCart-Assigment#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mysql2": "^3.15.3",
+    "sequelize": "^6.37.7"
+  }
+}
