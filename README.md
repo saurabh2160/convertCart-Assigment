@@ -30,20 +30,18 @@ Sequelize ORM models
 
 Seed data included
 
-Docker + Docker Compose support
-
 Fully API-ready
 
 Tech Stack
 
-Node.js 20
+Node.js
 
 Express.js
 
-MySQL 8
+MySQL
 
-Sequelize ORM
+Sequelize
 
-Docker + Docker Compose
+--------------------------------------------------EXPOSED END POINT----------------------------------------------------
 
-dotenv
+link : https://convertcart-assigment.onrender.com/search/dishes?name=biryani&minPrice=200&maxPrice=300
