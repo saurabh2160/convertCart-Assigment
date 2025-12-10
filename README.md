@@ -63,3 +63,7 @@ src/
 
 ## Saurabh Manohar
 Backend Developer
+
+# Exposed Endpoint
+
+https://convertcart-assigment.onrender.com/search/dishes?name=biryani&minPrice=200&maxPrice=300
