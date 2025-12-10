@@ -1,47 +1,65 @@
-# convertCart-Assigment
-Simple backend service that allows users to search for restaurants based on a dish name. 
+# convertCart-Assignment  
+Simple backend service that allows users to search for restaurants based on a dish name.
+
+---
+
+# 📌 Restaurant Dish Search API
+
+A simple **Node.js + MySQL** backend that allows users to search for restaurants by dish name, with a **mandatory price range filter**, and returns the **top restaurants where that dish is ordered the most**.
+
+---
+
+# 🚀 Features
+
+- Search restaurants by **dish name**
+- Mandatory **minPrice / maxPrice** filter
+- Returns **top 10 restaurants**
+- Shows:
+  - Restaurant details  
+  - Dish name  
+  - Dish price  
+  - Total order count
+- Clean SQL queries (**No ORM**)
+- Railway-compatible deployment
+- Includes **seed script** & setup instructions
+
+---
+
+# 🛠️ Tech Stack
+
+- **Node.js 20**
+- **Express.js**
+- **MySQL (mysql2 driver)**
+
+---
+
+# 📂 Folder Structure
+
+src/
+│── config/
+│ └── db.js
+│── routes/
+│ └── routes.js
+│── controllers/
+│ └── search.js
+│── seed/
+│ └── seed.js
+│── app.js
+│
+├── .env.example
+├── package.json
+└── README.md
+
+# 🔍 API Documentation
+##  GET /search/dishes
+| Name     | Required | Example |
+| -------- | -------- | ------- |
+| name     | Yes      | biryani |
+| minPrice | Yes      | 150     |
+| maxPrice | Yes      | 300     |
 
 
-Restaurant Dish Search API
+# 🙌 Author
 
-A simple Node.js + Express + MySQL backend that lets users search for restaurants based on a dish name, filtered by a mandatory price range, returning the top restaurants where the dish has been ordered the most.
-
-This project is built as part of a backend developer take-home assignment.
-
-Features
-
-Search restaurants by dish name
-
-Apply mandatory price range filter
-
-Returns top 10 restaurants with highest order count for that dish
-
-Includes:
-
-Restaurant details
-
-Dish name + price
-
-Total order count
-
-Clean database schema using MySQL
-
-Sequelize ORM models
-
-Seed data included
-
-Fully API-ready
-
-Tech Stack
-
-Node.js
-
-Express.js
-
-MySQL
-
-Sequelize
-
---------------------------------------------------EXPOSED END POINT----------------------------------------------------
-
-link : https://convertcart-assigment.onrender.com/search/dishes?name=biryani&minPrice=200&maxPrice=300
+## Saurabh Manohar
+Backend Developer
