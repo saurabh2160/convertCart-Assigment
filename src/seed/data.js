@@ -8,7 +8,17 @@ const restaurantsData = [
   { name: "Jaipur Rajasthani Dhaba", city: "Jaipur" },
   { name: "Delhi Street Kitchen", city: "Delhi" },
   { name: "Lucknowi Awadh House", city: "Lucknow" },
-  { name: "Goa Seafood Shack", city: "Goa" }
+  { name: "Goa Seafood Shack", city: "Goa" },
+  { name: "Indore Poha Junction", city: "Indore" },
+  { name: "Nagpur Orange Spice", city: "Nagpur" },
+  { name: "Surat Gujarati Thali", city: "Surat" },
+  { name: "Patna Litti Chokha Stall", city: "Patna" },
+  { name: "Amritsar Kulcha Hub", city: "Amritsar" },
+  { name: "Rajkot Kathiawadi Kitchen", city: "Rajkot" },
+  { name: "Trivandrum Kerala Cafe", city: "Trivandrum" },
+  { name: "Pune Misal House", city: "Pune" },
+  { name: "Udaipur Lakeview Dining", city: "Udaipur" },
+  { name: "Mangalore Fish Curry Point", city: "Mangalore" }
 ];
 const dishes = [
   { name: "Chicken Biryani", price: 220 },
